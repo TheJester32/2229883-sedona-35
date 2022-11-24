@@ -229,7 +229,7 @@ h3 {
   padding: 80px 85px 81px 85px;
 }
 .shopping {
-  padding-top: 100px;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -255,12 +255,35 @@ background-repeat: no-repeat;
 font-size: 22px;
 line-height: 26px;
 text-align: center;
-padding: 96px 308px 112px 278px;
+margin-top: 104px;
+padding: 50px 308px 112px 278px;
+}
+.mailing-form-container {
+  width: 684px;
+  padding-top: 50px;
 }
 .mailing-form {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
+}
+.text {
+  width: 452px;
+  height: 52px;
+}
+.button-subscribe {
+  font-family: inherit;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-decoration: none;
+  width: 300px;
+  height: 60px;
 }
 .footer-social-list {
   background-color: #FFFFFF;
@@ -333,29 +356,49 @@ padding: 96px 308px 112px 278px;
   flex-wrap: wrap;
   display:flex;
   flex-direction:row;
-  justify-content: space-between;
+  margin: 50px 40px 50px 70px;
+}
+.hotel-card {
+  border: 0.5px solid black;
+  margin: 10px;
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.product-card-content {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
 }
 .product-card-link {
   text-decoration: none;
 }
 .product-card-title {
   color: #000000;
-  background-color: #ffffff;
   text-decoration: none;
   font-size: 24px;
   line-height: 28px;
+}
+.price-container {
+  display: flex;
+  justify-content: space-between;
 }
 .product-card-price{
   font-size: 18px;
   line-height: 21px;
   color: #000000;
 }
+
 .product-card-button {
   text-decoration: none;
   color: #000000;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  margin-top: auto;
+  width: 140px;
+  height: 36px;
+  padding-top: 16px;
 }
 .pagination {
   background-color: #ffffff;
